@@ -76,7 +76,6 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
@@ -85,7 +84,6 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
@@ -165,7 +163,14 @@ hr {
 
 /** projects **/
 .showcase-list {
-    padding: 2rem;
+    padding: 0rem 1rem 2rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+    border: 0.1px inset var(--primary-color) ;
+}
+
+.showcase-list .desc {
+    padding-bottom: 1rem;
 }
 
 /** blogs **/
